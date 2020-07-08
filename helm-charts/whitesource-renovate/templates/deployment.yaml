@@ -27,7 +27,7 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
             {{- if .Values.renovate.acceptAgreement }}
-            - name: ACCEPT_AGREEMENT
+            - name: ACCEPT_WHITESOURCE_TOS
               value: {{ .Values.renovate.acceptAgreement | quote }}
             {{- end }}
             {{- if .Values.renovate.licenseMode }}
