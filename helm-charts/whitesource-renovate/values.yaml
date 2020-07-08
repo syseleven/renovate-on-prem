@@ -14,11 +14,10 @@ renovate:
   # conversion to a boolean
   acceptAgreement:
 
-  # Set to commercial if you have purchased a license, otherwise it defaults to evaluation
-  licenseMode:
-
-  # If running in commercial mode, set this to the license name (e.g. company name) as submitted with the WhiteSource Renovate order
-  licenseName:
+  # Set this to the key you received by email.
+  # You can request a license key by submitting the form at https://renovate.whitesourcesoftware.com/on-premises/.
+  # Please allow up to 24 hours to receive your license key by email.
+  licenseKey:
 
   # Which platform WhiteSource Renovate will connect to. For example "github" or "gitlab"
   renovatePlatform:
